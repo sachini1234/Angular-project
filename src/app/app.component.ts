@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular3';
+  myimage:string="assets/images/P4.webp";
 }

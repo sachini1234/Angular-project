@@ -1,1 +1,728 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+#main{
+    width: 100%;
+    height: 580px;
+    background-image: url('../img/P2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    nav{
+        width: 100%;
+        background-color: rgb(32, 32, 32);
+        padding-bottom: 5px;
+        .logo{
+            color: rgb(255, 255, 254);
+            background-color: rgb(248, 199, 63);
+            font-size: 27px;
+            font-family: Century Gothic;
+            padding: 5px 50px 5px 140px;
+        }
+        ul{
+            float: right;
+            padding: 5px 250px 0px 0px;
+            li{
+                display: inline-block;
+                line-height: 30px;
+                margin: 0px 20px;
+                a{
+                    color: rgb(255, 255, 254);
+                    font-size: 14px;
+                }
+            }
+        }   
+        .checkbtn{
+            font-size: 25px;
+            color: rgb(248, 199, 63);
+            float: right;
+            line-height: 40px;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+        }
+        #check{
+            display: none;
+        }
+    }
+    .main-topic{
+        color: rgb(255, 255, 254);
+        background-color: rgb(248, 220, 63);
+        height: 110px;
+        h1{
+            text-align: left;
+            margin: 150px 0px 0px 300px;
+            font-size: 70px;
+            font-weight: 900;
+        }
+        p{
+            margin-left: 300px;
+            text-align: left;
+            font-size: 50px;
+        }
+        button{
+            color: rgb(255, 255, 254);
+            text-align: right;
+            padding: 0px 30px;
+            margin-left: 200px;
+            background-color: rgb(248, 220, 63);
+            border: 5px solid rgb(255, 255, 254);
+            font-size: 20px;
+        }
+        .sub-topic{
+            display: inline-flex;
+        }
+    }
+}
+
+#new{
+    padding: 90px 0px 90px 60px;
+    background-color: rgb(68, 68, 68);
+    color: rgb(245, 237, 237);
+    display: flex;
+    .new1{
+        h2{
+            margin: 0px 0px 10px 50px;
+        }
+        p{
+            font-size: 20px;
+            padding-bottom: 13px;
+        }
+        .sub-new1{
+            background-color: rgb(255, 187, 0);
+            width: 450px;
+            padding: 0px 30px 0px 50px;
+        }
+        .sub-new2{
+            margin-left: 50px;
+        }
+    }
+    .new2{
+        img{
+            background-color: rgb(17, 17, 17);
+            padding: 0px 0px 0px 140px;
+        }
+    }
+}
+
+#about{
+    display: flex;
+    padding: 80px 120px;
+    .format,
+    .class{
+        padding-right: 50px;
+    }
+    h2{
+        margin-bottom: 10px;
+        color: rgb(255, 187, 0);
+    }
+}
+
+#menu{
+    width: 100%;
+    height: 740px;
+    background-image: url('../img/P3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .menu1{
+        h2,
+        h1{
+            color: rgb(255, 187, 0);
+        }
+        h2{
+            font-size: 30px;
+            padding: 30px;
+            text-align: center; 
+        }
+        h1{
+            border: 1px solid rgb(255, 255, 254);
+            margin-left: 200px;
+            padding: 8px 0px 45px 350px;
+        }
+    }
+    .menu1-1{
+        margin-top: 70px;
+        .menu2{
+            margin-left: 240px;
+            background-color: rgb(255, 187, 0);
+            padding: 50px 0px 2px 30px;
+        }
+        .menu6{
+            margin-left: 240px;
+            padding: 10px 0px 0px 30px;
+        }
+        .menu3,
+        .menu4,
+        .menu5,
+        .menu6{
+            display: flex;
+            margin-bottom: 20px;
+            h2,
+            p{
+                color: rgb(255, 255, 254);
+                font-size: 25px;
+            }
+        }
+        .menu3-1,
+        .menu5-1{
+            margin-right: 140px;
+        }
+        .menu4-1,
+        .menu6-1{
+            margin-right: 285px;
+        }
+    }
+    .menu7{
+        margin: 40px 120px 0px 120px;
+        padding: 10px 0px 15px 150px;
+        border: 1px solid rgb(255, 255, 254);
+        p{
+            font-size: 20px;
+            color: rgb(255, 255, 254);
+        }
+    }
+}
+
+#concept{
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    padding: 50px;
+    h1{
+        color: rgb(255, 187, 0);
+    }
+    .concept1{
+        margin: 15px 300px 0px 300px;
+        color: rgb(255, 255, 254);
+    }
+    .concept2{
+        color: rgb(255, 255, 254);
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        p{
+            padding: 0px 20px;
+        }
+    }
+}
+
+#concept{
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    padding: 50px;
+    h1{
+        color: rgb(255, 187, 0);
+    }
+    .concept1{
+        margin: 15px 300px 0px 300px;
+        color: rgb(255, 255, 254);
+    }
+    .concept2{
+        color: rgb(255, 255, 254);
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        p{
+            padding: 0px 20px;
+        }
+    }
+}
+
+#master-class{
+    width: 100%;
+    height: 740px;
+    background-image: url('../img/P4.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 254);
+    .master-class2{
+        text-align: right;
+        color: rgb(255, 255, 254);
+        padding: 60px 70px;
+    }
+    .master-class3{
+        background-color: rgb(255, 187, 0);
+        margin: 0px 100px 30px 750px;
+        padding: 50px 60px 40px 70px;
+        .master-class5{
+            margin: 30px 0px 60px 0px;
+        }
+        .master-class6{
+            margin-left: 250px;
+        }
+    }
+    .master-class7{
+        background-color: rgb(255, 187, 0);
+        margin: 0px 100px 30px 900px;
+        padding: 30px 0px 10px 20px;
+    }
+}
+
+#gallery{
+    .box{
+        display: flex;
+        .box1{
+            background-color: rgb(48, 47, 47);
+            padding: 70px 120px;
+        }
+        .box2{
+            background-color: rgb(255, 187, 0);
+            padding: 70px 100px;
+        }
+        .box3{
+            background-color: rgb(48, 47, 47);
+            padding: 70px 100px;
+            color: rgb(255, 187, 0);
+            text-align: left;
+        }
+        .box4{
+            background-color: rgb(48, 47, 47);
+            padding: 70px 295px;
+        }
+    }
+}
+
+#footer{
+    display: flex;
+    background-color: rgb(82, 57, 3);
+    color: rgb(255, 255, 254);
+    padding: 30px 120px;
+    .info{
+        display: flex;
+        .about,
+        .menu,
+        .shef,
+        .contact{
+            margin-right: 20px;
+        }
+    }
+}
+
+
+
+@media(max-width: 1026px){
+    #master-class{
+        .master-class2{
+            text-align: center;
+            padding: 60px 0px;
+        }
+        .master-class3{
+            margin: 0px 20px 30px 20px;
+            padding: 50px 5px 40px 5px;
+            text-align: center;
+            .master-class4{
+                font-size: 30px;
+            }
+            .master-class6{
+                margin-left: 0px;
+            }
+        }
+        .master-class7{
+            margin: 0px 200px 30px 200px;
+            padding: 10px 0px 10px 20px;
+            text-align: center;
+            font-size: 15px;
+        }
+    } 
+    #gallery{
+        .box{
+            flex-direction: column;
+            .box1{
+                padding: 30px 0px;
+            }
+            .box2{
+                padding: 30px 0px;
+            }
+            .box3{
+                padding: 30px 100px;
+            }
+            .box4{
+                padding: 30px 9px;
+            }
+        }
+    }  
+}
+
+@media(max-width: 952px){
+    #main{
+        nav{
+            .logo{
+                padding-left: 100px;
+                color: rgb(248, 199, 63);
+                background: none;
+                font-size: 27px;
+                font-family: Century Gothic;
+            }
+            .checkbtn{
+                display: block;
+            }
+            ul{
+                position: fixed;
+                width: 100%;
+                height: 45vh;
+                background: #5f5752;
+                top: 80px;
+                left: -100%;
+                text-align: center;
+                transition: all .5s;
+                padding: 0px 0px;
+                margin-top: -45px;
+                li{
+                    display: block;
+                    margin: 30px 0px;
+                    a{
+                        font-size: 16px;
+                        
+                    }
+                }
+            } 
+            #check:checked ~ ul{
+                left: 0;
+            } 
+        }
+        .main-topic{
+            height: 200px;
+            text-align: center;
+            h1{
+                text-align: center;
+                margin: 200px 0px 0px 0px;
+                font-size: 65px;
+                font-weight: 900;
+            }
+            .sub-topic{
+                flex-direction: column;
+            } 
+            p{
+                margin-left: 0px;
+                text-align: left;
+                font-size: 40px;
+            }
+            button{
+                text-align: center;
+                margin: 20px 0px;
+                font-size: 18px;
+                padding: 8px 30px;
+            }
+        }
+    }
+    #new{
+        padding: 50px 0px;
+        flex-direction: column;
+        align-items: center;
+        .new2{
+            img{
+                padding: 0px 0px;
+            }
+        }
+    }
+    #about{
+        flex-direction: column;
+        padding: 50px 20px;
+        .format,
+        .class{
+            padding-right: 0px;
+            padding-bottom: 20px;
+        }
+    }
+    #menu{
+        .menu1{
+            h2{
+                font-size: 28px;
+                padding: 20px; 
+            }
+            h1{
+                margin: 0px 10px;
+                padding: 8px 5px 45px 5px;
+                text-align: center;
+            }
+        }
+        .menu1-1{
+            .menu2{
+                margin: 0px 10px;
+            }
+            .menu6{
+                margin: 0px 10px;
+            }
+            .menu3-1,
+            .menu5-1{
+                margin-right: 100px;
+            }
+            .menu4-1,
+            .menu6-1{
+                margin-right: 245px;
+            }
+        }
+    }
+    #concept{
+        .concept1{
+            margin: 15px 50px 0px 50px;
+        }
+    }   
+    #footer{
+        flex-direction: column;
+        padding: 30px 120px;
+        .info{
+            display: flex;
+            justify-content: center;
+            .menu,
+            .shef,
+            .contact{
+                margin-right: 50px;
+            }
+        }
+        .about{
+            p{
+                padding: 15px 0px;
+            }
+        }
+    }
+}
+
+@media(max-width: 580px){ 
+    #menu{
+        .menu1-1{
+            .menu2{
+                margin: 0px 0px;
+                padding: 50px 0px 2px 10px;
+            }
+            .menu6{
+                margin: 0px 0px;
+                padding: 10px 0px 0px 10px;
+            }
+            .menu3,
+            .menu4,
+            .menu5,
+            .menu6{
+                h2,
+                p{
+                    font-size: 20px;
+                }
+            }
+            .menu3-1,
+            .menu5-1{
+                margin-right: 100px;
+            }
+            .menu4-1,
+            .menu6-1{
+                margin-right: 215px;
+            }
+        }
+        .menu7{
+            margin: 40px 10px 0px 10px;
+        }
+    }  
+    #concept{
+        .concept2{
+            flex-direction: column;
+            margin-top: 10px;
+            p{
+                padding: 10px 0px;
+            }
+        }
+    } 
+    #master-class{
+        .master-class3{
+            .master-class4{
+                font-size: 27px;
+            }
+            .master-class6{
+                margin-left: 0px;
+            }
+        }
+        .master-class7{
+            margin: 0px 150px 0px 150px;
+            padding: 10px 40px 10px 40px;
+            align-items: center;
+            font-size: 15px;
+        }
+    }   
+    #footer{
+        padding: 30px 30px;
+        .info{
+            flex-direction: column;
+            justify-content: center;
+            .menu,
+            .shef,
+            .contact{
+                margin: 0px 0px 20px 0px;
+                text-align: center;
+            }
+        }
+    }             
+}
+
+@media(max-width: 490px){
+    #new{
+        .new1{
+            p{
+                font-size: 18px;
+                padding-bottom: 11px;
+            }
+            .sub-new1{
+                background-color: rgb(255, 187, 0);
+                width: 100%;
+                padding: 0px 30px;
+            }
+            .sub-new2{
+                margin-left: 30px;
+            }
+        }
+        .new2{
+            img{
+                background: none;
+                padding: 0px 0px;
+            }
+        }
+    }
+    #menu{
+        .menu1-1{
+            .menu2{
+                margin: 0px 0px;
+                padding: 50px 0px 2px 5px;
+            }
+            .menu6{
+                margin: 0px 0px;
+                padding: 10px 0px 0px 5px;
+            }
+            .menu3,
+            .menu4,
+            .menu5,
+            .menu6{
+                h2,
+                p{
+                    font-size: 18px;
+                }
+            }
+            .menu3-1,
+            .menu5-1{
+                margin-right: 50px;
+            }
+            .menu4-1,
+            .menu6-1{
+                margin-right: 155px;
+            }
+        }   
+    } 
+    #master-class{
+        .master-class3{
+            .master-class4{
+                font-size: 25px;
+            }
+        }
+        .master-class7{
+            margin: 0px 50px 0px 50px;
+            padding: 10px 40px 10px 40px;
+        }
+    }               
+}
+
+@media(max-width: 380px){
+    #menu{
+        height: 650px;
+        .menu1-1{
+            .menu3,
+            .menu4,
+            .menu5,
+            .menu6{
+                h2,
+                p{
+                    font-size: 16px;
+                }
+            }
+            .menu3-1,
+            .menu5-1{
+                margin-right: 20px;
+            }
+            .menu4-1,
+            .menu6-1{
+                margin-right: 115px;
+            }
+        }  
+        .menu7{
+            padding: 10px 0px 15px 50px;
+            p{
+                font-size: 18px;
+            }
+        }
+    }    
+    #concept{
+        padding: 50px 0px;
+        .concept1{
+            margin: 15px 10px 0px 10px;
+        }
+    }        
+}
+
+@media(max-width: 350px){
+    #main{
+        nav{
+            .logo{
+                padding-left: 50px;
+                font-size: 20px;
+            }  
+            .checkbtn{
+                line-height: 35px;
+                margin-right: 30px;
+                font-size: 20px;
+            }  
+            ul{
+                margin-top: -50px;
+            }
+        }
+        .main-topic{
+            button{
+                font-size: 14px;
+                padding: 8px 30px;
+                font-weight: 600;
+            }
+        }
+    }
+    #menu{
+        .menu3-1,
+        .menu5-1{
+            margin-right: 20px;
+        }
+        .menu4-1,
+        .menu6-1{
+            margin-right: 0px;
+        }
+    }
+}
+
+@media(max-width: 300px){
+    #menu{
+        .menu1-1{
+            .menu3,
+            .menu4,
+            .menu5,
+            .menu6{
+                h2{
+                font-size: 14px;
+                }
+            }
+            .menu3-1,
+            .menu5-1,
+            .menu4-1,
+            .menu6-1{
+                p{
+                    display: none;
+                }
+            }
+        }
+        .menu3-1,
+        .menu5-1{
+            margin-right: 20px;
+        }
+        .menu4-2,
+        .menu6-2{
+           margin-left: -60px;
+        }
+    }
+}
